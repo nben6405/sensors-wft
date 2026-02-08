@@ -3,6 +3,8 @@ Fully automated data acquisition system designed for sensor measurement collecti
 
 The system enables hands-off data logging where acquisition can be started or stopped via a hardware button. I developed this to log data from various sensors while conducting wheel force transducer testing. Outputs CSV with calibrated data, CSV with uncalibrated data, YAML with calibration configs, and plots of calibrated data. 
 
+code is a lil messy, this was a speedy dev. 
+
 ---
 
 ## System Architecture
