@@ -1,0 +1,59 @@
+#two shock pot configs
+
+#1:
+ #Shock Pots fully extended --> max length
+      #short_min_voltage = 10.0
+      #short_max_voltage = 0.0
+      #long_min_voltage = 10.0
+      #long_max_voltage = 0.0
+#2:
+  #Shock Pots fully extended --> min length
+      #short_min_voltage = 0.0
+      #short_max_voltage = 10.0
+      #long_min_voltage = 0.0
+      #long_max_voltage = 10.0
+
+
+#-------------------------CONFIG--------------------------------
+
+shock_pot_calibration:
+  short_shock_pots:
+    # Length in inches
+    short_min_length: 0
+    short_max_length: 6
+
+    # Voltage in volts
+    short_min_voltage: 10.0
+    short_max_voltage: 0.0
+
+  long_shock_pots:
+    # Length in inches
+    long_min_length: 0
+    long_max_length: 6
+
+    # Voltage in volts
+    long_min_voltage: 10.0
+    long_max_voltage: 0.0
+
+brake_pressure_calibration:
+  front_brake_sensor:
+    # Pressure in PSI
+    front_min_brake_pressure: 0
+    front_max_brake_pressure: 3000
+
+    # Voltage in volts
+    front_min_voltage: 0.26897 #channel 4
+    front_max_voltage: 1.37
+
+  rear_brake_sensor:
+    # Pressure in PSI
+    rear_min_brake_pressure: 0
+    rear_max_brake_pressure: 3000
+
+    # Voltage in volts
+    rear_min_voltage: 0.27 #channel 12
+    rear_max_voltage: 1.37
+
+    #frontminvol 0.256650432
+    #rearmivV = 0.257588564
+# Front and rear brake pressure sensors are the same, so under normal operating conditions the front and rear brake pressure sensor should be calibrated to the same/very similar values.
