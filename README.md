@@ -1,4 +1,4 @@
-# Raspberry Pi Embedded Data Acquisition System
+# Raspberry Pi Data Acquisition System
 Fully automated data acquisition system designed for sensor measurement collection (specifically shock pots and brake pressure). It integrates Raspberry Pi GPIO control, MCC DAQ analog acquisition hardware, real-time calibration mapping, and automated post-processing visualization. 
 
 The system enables hands-off data logging where acquisition can be started or stopped via a hardware button. I developed this to log data from various sensors while conducting wheel force transducer testing. Outputs CSV with calibrated data, CSV with uncalibrated data, YAML with calibration configs, and plots of calibrated data. 
